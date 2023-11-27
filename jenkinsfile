@@ -1,0 +1,57 @@
+pipeline{
+    agent any
+    stages{
+        stage("one"){
+            steps{
+                echo "this is my first step of our pipeline"
+            }
+        }
+        stage("two"){
+            steps{
+                echo "this is my second step of our pipeline"
+                   input(" do you want")
+            }
+        }
+        stage("three"){
+            steps{
+                echo "this is my three step of our pipeline"
+            }
+        }
+        stage("four"){
+            steps{
+                echo " this is my fourth step of our pipeline"
+            }
+        }
+        stage("five"){
+            steps{
+                echo "this is my fifth step of our pipeline"
+            }
+        }
+        stage("six"){
+            steps{
+                echo "this is my sixth step of our pipeline"
+            }
+        }
+        stage("seven"){
+            steps{
+                echo "this is my seventh step of our pipeline"
+            }
+        }
+        stage("eight"){
+            steps{
+                echo "this is my eighth step of our pipeline"
+            }
+        }
+        stage("nine"){
+            steps{
+                echo "this is my nineth step of our pipeline"
+            }
+        }
+        stage("ten"){
+            steps{
+                echo "this is my tenth step of our pipeline"
+            }
+        }
+
+    }
+}
