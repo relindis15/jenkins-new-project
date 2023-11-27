@@ -15,6 +15,7 @@ pipeline{
         stage("three"){
             steps{
                 echo "this is my three step of our pipeline"
+                echo "correct something from the code"
             }
         }
         stage("four"){
