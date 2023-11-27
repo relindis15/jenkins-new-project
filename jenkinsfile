@@ -4,6 +4,7 @@ pipeline{
         stage("one"){
             steps{
                 echo "this is my first step of our pipeline"
+                input (" please confirm if this is what you need")
             }
         }
         stage("two"){
