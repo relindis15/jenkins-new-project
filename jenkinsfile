@@ -22,6 +22,8 @@ pipeline{
         stage("four"){
             steps{
                 echo " this is my fourth step of our pipeline"
+                input 'wait for instructions to proceed'
+                echo 'i am ok with the corrections'
             }
         }
         stage("five"){
